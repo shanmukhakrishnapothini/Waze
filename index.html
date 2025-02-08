@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waze</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="shortcut icon" href="https://img.freepik.com/premium-vector/chat-vector-icon_676179-133.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div class="mom">
+            <img src="data:image/png;base64,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" alt="">
+            <p>Waze</p>
+            <p>Partners</p>
+        </div>
+        <div class="dad">
+            <p>Live Map</p>
+            <p>Download</p>
+            <input type="button" value="Log In">
+        </div>
+        <div class="mobile">
+            <i class="bi bi-list"></i>
+        </div>
+    </nav>
+    <div class="first">
+        <div class="box1">
+            <div class="cont">
+                <h3>waze</h3>
+                <h1>We could all go for a lot less traffic in our lives</h1>
+                <h2>Be a driver that helps other drivers</h2>
+            </div>
+            <div class="txt">
+                <input class="btn" type="button" value="Download">
+                <u>learn more</u>
+            </div>
+        </div>
+        <div class="box2">
+            <h1>Waze for Cities</h1>
+            <h2>See how we use our street smarts around the world.</h2>
+            <h2><u>learn more</u></h2>
+        </div>
+    </div>
+    <div class="second">
+        <div class="box3">
+            <h1>Plan a trip with the Live Map</h1>
+            <h4>Get driving directions and live traffic info before you leave, and then save straight from here to your app.</h4>
+            <h3><u>Plan + Go</u></h3>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3433181679407!2d77.69802317390489!3d12.949869615356647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae123562bb711d%3A0x9228e6d088618234!2sJava%20Home%20Cloud!5e0!3m2!1sen!2sin!4v1738234687166!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="third">
+        <div class="box4">
+            <h1>Product Partnerships</h1>
+            <h3>Whether it’s integrating with the car or with a favorite music app, explore how we team up with our product partners to make Waze better.</h3>
+            <h3><u>Learn more</u></h3   >
+        </div>
+        <img class="img" src="https://lh3.googleusercontent.com/DtW4Z9W_-jklz994a05b2w4sZ9bS0mZ76fOOvEsKDvKCCRGp5yImO31mudyVlnn18CRQtxITobBrEFc9YJwdousl-4fSIr4xSs-DSes=s1200-rw" alt="smile">
+    </div>
+    <div class="fourth">
+        <p class="emo"><img src="https://kstatic.googleusercontent.com/files/03155836059851ac76ff72d2b3092868684dcb4089991c230af45f95bbb1b68486466c1a4182721feae57455e70f5cb80bdfc2413ac9436bc17f83a1a31f727d" alt=""></p>
+        <h1>Because traffic has always sucked</h1>
+        <h4>Where did the Waze story begin? With drivers helping other drivers, of course.</h4>
+        <input  class="btn2" type="button" value="Learn about us">
+    </div>
+    <div class="fifth">
+        <p class="emo"><img src="https://kstatic.googleusercontent.com/files/6b6c0283ff86327998cad143466c495e7b693c68c9fa95e92909a412478affcd5d33655b88b7b97d07ce3448b6e60476d765b304aed3f85316d6655bc451a7ad" alt=""></p>
+        <h1>Ready to hit the road?</h1>
+        <button><i class="bi bi-google-play"></i>         googleplay</button>
+        <button><i class="bi bi-apple"></i>       AppStore</button>
+    </div>
+    <div class="shannu">
+        <div class="content">
+            <h1>Waze</h1>
+            <p>Where drivers help drivers</p>
+            <div class="icons">
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+            </div>
+            <div class="english">
+                <h3>English</h3>
+                <i class="bi bi-chevron-down"></i>
+            </div>
+    
+        </div>
+        <div class="kabir">
+            <div class="one">
+                <h3>Support</h3>
+                <p>Help Center</p>
+                <p>Fix a map issue</p>
+                <p>Community forums</p>
+                <p>Community wiki</p>
+            </div>
+            <div class="one">
+                <h3>Live Map</h3>
+                <p>Plan a drive</p>
+                <p>Major events</p>
+                <p>Edit the map</p>
+                <p>Locations</p>
+            </div>
+            <div class="one">
+                <h3>About</h3>
+                <p>About us</p>
+                <p>Contact Us</p>
+                <p>Waze blog</p>
+                <p>Communities</p>
+                
+            </div>
+            <div class="one">
+                <h3>Partners</h3>
+                <p>Advertise with Waze</p>
+                <p>Waze for Cities</p>
+                <p>Transport SDK</p>
+                <p>Developers</p>
+            </div>
+        </div>
+    </div>
+    <div class="line2">
+        <div class="line">
+            <p>© 2006 - 2024 Waze Mobile. All Rights Reserved.</p>
+        </div>
+        <div class="line1">
+            <p>Terms of Use</p>
+            <p>Privacy Policy</p>
+            <p>Copyright Notice</p>
+        </div>
+    </div>
+</body>
+</html>
