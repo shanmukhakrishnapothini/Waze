@@ -272,7 +272,7 @@ nav{
     }
     .second{
         flex-wrap: wrap;
-        width: 375px;
+        width: 370px;
         margin-left: 20px;
     }
     .box3{
@@ -298,7 +298,6 @@ nav{
     .box4{
         padding: 0px;
         height: 450px;
-        margin: 10px;
     }
     .img{
         width: 95%;
