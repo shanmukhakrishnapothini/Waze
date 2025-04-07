@@ -195,6 +195,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .one{
     padding: 10px 70px;
@@ -244,6 +245,7 @@ nav{
     }
     .box1{
         flex-wrap: wrap;
+        margin: 0;
     }
     .cont{
         width: 100%;
@@ -256,7 +258,7 @@ nav{
     }
     .txt{
         padding: 0px;
-        margin-left: 60px;
+        /* margin-left: 60px; */
     }
     .txt>input{
         width:150px;
@@ -293,22 +295,30 @@ nav{
     }
     .third{
         flex-wrap: wrap;
+        width: 400px;
         height: auto;
+        margin: 0;
+        margin: 10px auto;
     }
     .box4{
         padding: 0px;
+        width: 90%;
         height: 450px;
+        margin: 10px auto;
     }
     .img{
-        width: 95%;
+        width: 300px;
         padding: 0px;
-        margin: 10px 0px;
+        margin: 0px 0px;
     }
     .fourth{
         text-align: start;
         padding-top: 10px;
         height: 400px;
+        width: 350px;
         padding: 20px;
+        margin: 10px auto;
+
     }
     .fourth>h1,h4{
         font-size: 20px;
@@ -323,8 +333,11 @@ nav{
     .fifth{
         text-align: start;
         padding-top:10px;
+        width: 350px;
         height: 400px;
         padding: 20px;
+        margin: 0;
+        margin-left: 15px;
     }
     .fifth>input{
         margin: 15px;
@@ -349,24 +362,29 @@ nav{
         width: 100%;
     }
     .img{
-        width: 370px;
+        width: 300px;
         height: 400px;
         border-radius: 20px;
         margin-left: 15px;
+        margin: 10px auto;
     }
     .shannu{
         flex-wrap: wrap;
         height: auto;
         padding: 0px;
-        margin-left:20px ;
+        /* margin-left:70px ; */
     }
     .fifth>button{
         margin: 3px;
+        margin-left: 20px;
+
     }
     .kabir{
         flex-wrap: wrap;
         height: auto;
-        padding: 0px;
+        padding: 0;
+        /* background-color: black; */
+        margin: 0;
     }
     .line2{
         flex-wrap:wrap;
@@ -387,6 +405,7 @@ nav{
     .one{
         padding: 0px;
         width: 100%;
+        margin: 0;
     }
     .one>h3{
       font-size: 20px;
@@ -394,4 +413,8 @@ nav{
     .line1{
         flex-wrap: wrap;
     }
+    body{
+        margin:0;
+    }
+    
 }
